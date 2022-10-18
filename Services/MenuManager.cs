@@ -99,7 +99,7 @@ namespace Assignment_1.Services
         // When option m is selected, back to MENU
         private void BackToMenu()
         {
-            Console.WriteLine(" Return to MENU...");
+            Console.WriteLine(" Press ENTER to MENU...");
         }
 
 
@@ -144,7 +144,7 @@ namespace Assignment_1.Services
             Console.WriteLine();
             Console.WriteLine(" e\t: Edit contact: ");
             Console.WriteLine(" d\t: Delete contact: ");
-            Console.WriteLine(" m\t: Return to MENU");
+            Console.WriteLine(" m\t: Press ENTER to MENU");
             Console.WriteLine();
             Console.Write(" Select option >> ");
             var option = Console.ReadLine();
